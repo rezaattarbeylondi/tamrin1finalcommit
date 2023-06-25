@@ -1,0 +1,38 @@
+@font-face {
+	font-family: IRANSansWeb;
+	src: url(../font/Iransans/ttf/IRANSansWeb.ttf);
+}
+
+*{
+	font-family: IRANSansWeb;
+}
+
+.nav-link{
+	margin: 0px 10px;
+	color: #333 ;
+}
+
+.dropdown-menu .show{
+	border-bottom: 5px solid #33ffff ;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.nav-link:hover{
+	border-bottom: 3px solid rebeccapurple;
+}
+
+.head-image img{
+	border-radius: 10px;
+	transition: 0.6s all;
+} 
+
+.head-image{
+	margin-top: 70px;
+}
+.head-image img :hover{
+	opacity: .4;
+	transition: 0.6s all;
+}
+.cotent-text{
+	margin-top: 1;
+}
